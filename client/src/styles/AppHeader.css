@@ -1,0 +1,56 @@
+.AppHeader {
+	height: var(--header-h);
+	box-shadow: 0 1px 1px #ddd;
+	background-color: #fff;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	z-index: 9999;
+}
+
+.AppHeader__Content{
+	height: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.SearchBox {
+	width: 250px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.SearchBox__Icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(calc(-50% + -2rem), -50%);
+	color: grey !important;
+}
+
+.SearchBox__Input {
+	border: none;
+	width: 100%;
+	border-radius: 3px;
+	background-color: var(--insta-grey-bg);
+	padding: 0.4rem 1rem;
+	border: 1px solid var(--light-grey);
+	text-align: center;
+}
+
+.SearchBox__Input:focus,
+.SearchBox__Input:valid {
+	text-align: left;
+	padding-left: 2rem;
+}
+
+.SearchBox__Input:focus + .SearchBox__Icon,
+.SearchBox__Input:valid + .SearchBox__Icon {
+	left: 0.5rem;
+	transform: translate(0, -50%);
+}

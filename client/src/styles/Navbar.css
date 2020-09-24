@@ -1,0 +1,34 @@
+.Navbar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	background-color: #ffffff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.NavLink {
+	display: inline-block;
+	padding: 0.7rem 0.7rem 0.6rem;
+	transition: 0.3s;
+}
+
+.NavLink:hover {
+	color: grey !important;
+}
+
+.NavLink + .NavLink {
+	margin-left: 0.5rem;
+}
+
+@media(min-width: 650px) {
+	.Navbar {
+		position: static;
+		box-shadow: none;
+	}
+}

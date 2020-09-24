@@ -1,0 +1,48 @@
+.SingleImageUploader {
+	border: 3px dashed #ddd;
+	border-radius: 5px;
+	height: 250px;
+	transition: var(--transition-speed);
+
+	position: relative;
+	overflow: hidden;
+	
+	display: grid;
+	place-items: center;
+}
+
+.SingleImageUploader:hover {
+	cursor: pointer;
+	border-color: var(--light-grey);
+	background-color: #ffffff33;
+}
+
+.SingleImageUploader__Img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.SingleImageUploader__FileInput {
+	position: absolute;
+	left: 110%;
+}
+
+.SingleImageUploader__controls {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.Icon {
+	font-size: 3rem !important;
+}
+
+.Icon--Add {
+	color: grey !important;
+}
+
+.Icon--Delete {
+	color: #CF0105 !important;
+}

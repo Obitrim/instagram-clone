@@ -1,0 +1,79 @@
+.Row {
+	display: flex;
+}
+.AppHome__Posts {
+	max-width: calc(var(--container-w) * 2 / 3);
+}
+
+.AppHome__Suggestions {
+	padding: 2rem;
+	display: none;
+
+	position: fixed;
+	top: var(--header-h);
+	right: calc((100vw - var(--container-w)) / 2);
+	max-width: calc(var(--container-w) * 1/3);
+}
+
+.AppHome__Suggestions__Header {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	margin-top: 1rem;
+}
+
+.AppHome__Suggestions__Header__Title {
+	color: var(--insta-grey-text);
+	font-size: 0.9rem;
+	font-weight: 550;
+	margin-bottom: 0;
+	margin-top: 0.5rem;
+}
+
+.AppHome__Suggestions__Header__SeeAll {
+	font-size: 0.8rem;
+	color: var(--textColor);
+	text-decoration: none;
+}
+
+.AppHome__Suggestions__Header__SeeAll:hover {
+	text-decoration: underline;
+}
+
+.AppHome__Posts,
+.AppHome__Suggestions {
+	height: calc(100vh - var(--header-h));
+	box-sizing: border-box;
+}
+
+.Footer {
+	color: var(--insta-grey-text);
+}
+
+.Footer__Link {
+	display: inline-block;
+	color: var(--insta-grey-text);
+	font-size: 0.7rem;
+	padding: 0 0.2rem;
+	text-decoration: none;
+}
+
+.Footer__Link:hover {
+	text-decoration: underline;
+}
+
+.Footer__copyright {
+	margin-top: 1.5rem;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+}
+
+.MuiSvgIcon-root {
+	color: var(--textColor);
+}
+
+@media(min-width: 1050px) {
+	.AppHome__Suggestions {
+		display: block;
+	}
+}

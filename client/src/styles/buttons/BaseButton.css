@@ -1,0 +1,23 @@
+.BaseButton {
+	width: 100%;
+	border: none;
+	margin-top: 1.5rem;
+	padding: 0.5rem 1rem;
+	border-radius: 100px;
+	background: linear-gradient(to bottom right, rgb(231, 57, 68), rgb(123, 76, 153));
+
+	color: #fff;
+	font-weight: 500;
+	font-size: 1.2rem;
+
+	transition: 0.25s;
+}
+
+.BaseButton:hover {
+	cursor: pointer;
+	background: linear-gradient(to bottom right, rgb(231, 57, 68), rgb(231, 57, 68) 30%, rgb(123, 76, 153));
+}
+
+.BaseButton:active {
+	background: linear-gradient(to bottom right, rgb(231, 57, 68), rgb(231, 57, 68) 20%, rgb(123, 76, 153));
+}

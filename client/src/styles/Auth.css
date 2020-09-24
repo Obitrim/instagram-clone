@@ -1,0 +1,86 @@
+.AuthView {
+	max-width: 500px;
+	padding: 1.5rem 0 0;
+	margin: 3rem auto 1.2rem;
+	box-sizing: border-box;
+
+	border-radius: 5px;
+	border: 1px solid var(--light-grey);
+	background-color: #fff;
+	overflow-x: hidden;
+}
+
+.AuthView__Header {
+	text-align: center;
+}
+
+.AuthView__Header__Logo {
+	width: 120px;
+	height: 120px;
+}
+
+.AuthView__Main {
+	display: flex;
+
+	width: 200%;
+	transition: margin-left 0.25s;
+}
+
+.AuthView__Main--ShiftLeft {
+	transition: margin-left 0.25s;
+	margin-left: -100%;
+}
+
+.AuthLogin,
+.AuthRegister {
+	flex: 1;
+	padding: 0 2.5rem;
+}
+
+.AuthLogin {
+	align-self: flex-start;
+}
+
+.AuthRegister {
+	padding-bottom: 1.5rem;
+}
+
+.AuthView__Title {
+	margin-bottom: 0;
+}
+
+.AuthView__Info {
+	margin-top: 0.2rem;
+	color: rgb(231, 57, 68);
+	font-size: 90%;
+}
+
+.FormGroup {
+	margin-bottom: 1.2rem;
+}
+
+.FormGroup__Input {
+	width: 100%;
+	padding: 0.5rem 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid var(--textColor);
+}
+
+.FormGroup__Input:focus,
+.FormGroup__Input:valid {
+	border-color: rgb(231, 57, 68);
+}
+
+.FormGroup__Error {
+	font-size: 0.75rem;
+	color: rgb(231, 57, 68);
+}
+
+.SwitchBox {
+	text-align: center;
+}
+
+.SwitchBox__Btn {
+	text-decoration: none;
+}

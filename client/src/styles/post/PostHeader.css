@@ -1,0 +1,33 @@
+.PostHeader {
+	display: flex;
+	align-items: center;
+	padding: 0.6rem 1rem;
+}
+
+.PostHeader__Profile {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.PostHeader__AccountName {
+	margin-left: 1rem;
+	font-weight: 400;
+	text-transform: lowercase;
+}
+
+.Icon {
+	margin-left: auto;
+	padding: 0;
+	background-color: transparent;
+	border: none;
+}
+
+.Icon:hover {
+	cursor: pointer;
+}
+
+.Icon__MoreIcon {
+	font-weight: 200 !important;
+}

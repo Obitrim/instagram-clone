@@ -1,0 +1,31 @@
+.UserProfileBox {
+	display: flex;
+	align-items: center;
+}
+
+.UserProfileBox__Img {
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+}
+
+.Account {
+	display: block;
+	margin-left: 1rem;
+	text-decoration: none;
+}
+
+.Account__Id,
+.Account__Name {
+	margin: 0;
+	font-size: 0.8rem;
+}
+
+.Account__Name {
+	color: var(--insta-grey-text);
+}
+
+.Account__Id {
+	color: var(--textColor);
+	font-weight: 550;
+}

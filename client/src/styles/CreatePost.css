@@ -1,0 +1,21 @@
+.CreatePost {
+	padding-top: 2rem;
+}
+
+.FormGroup {
+	margin-top: 1.2rem;
+}
+
+.PostDescription {
+	width: 100%;
+	margin-top: 0.5rem;
+	padding: 0.5rem;
+}
+
+.CreatePost__CreatePostBtn {
+	padding: 0.5rem;
+	width: 100%;
+	border-radius: 1000px;
+	border: none;
+	font-size: 20px;
+}

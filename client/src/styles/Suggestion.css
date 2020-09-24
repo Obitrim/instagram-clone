@@ -1,0 +1,43 @@
+.Suggestion {
+	display: flex;
+	align-items: center;
+	margin: 0.5rem 0;
+	text-decoration: none;
+}
+
+.Suggestion__AccountImg {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+
+.Suggestion__Follow {
+	font-size: 0.8rem;
+	text-decoration: none;
+	border: none;
+	background-color: transparent;
+	color: var(--linkColor);
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.Suggestion__Follow:hover {
+	text-decoration: underline;
+}
+
+.AccountDetails {
+	flex: 1;
+	margin-left: 0.6rem;
+}
+
+.AccountDetails__Name {
+	display: block;
+	font-weight: 520;
+	font-size: 0.9rem;
+	color: var(--textColor);
+}
+
+.AccountDetails__Tag {
+	color: var(--insta-grey-text);
+	font-size: 0.7rem;
+}
